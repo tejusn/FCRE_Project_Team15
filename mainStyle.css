@@ -1,0 +1,107 @@
+*{
+    font-family: sans-serif;
+}
+
+header,footer {
+    background-color: black;
+    border-radius: 5px;
+}
+header > h1{
+    color: white;
+    margin-bottom: 0px;
+}
+
+body{
+    background-color: azure;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+.subheaders{
+    background-color: blue;
+    color: white;
+    border-style:groove;
+    border-radius: 5px;
+    padding: 7px;
+   
+}
+nav{
+    background-color: gainsboro;
+    padding: 5px;
+}
+
+nav>a{
+    font-size: 14px;
+    padding: 2px;
+    color: dimgray;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: darkred !important;
+     text-decoration: none !important;
+}
+/*Style for the Upcoming Events*/
+.liststyle>li {
+    background-color: gainsboro;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    border-style: solid;
+     list-style-type: none;
+}
+.liststyle>a>li {
+    background-color: gainsboro;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    border-style: solid;
+     list-style-type: none;
+}
+
+.liststyle>a>li:hover{
+    color:darkred;
+    background-color: white;
+    font-weight: bolder;
+    
+}
+.liststyle>a{
+    text-decoration: none;
+}
+
+/*Style for Event details*/
+.approve-deny-button>a{
+    text-decoration: none;
+    padding: 8px;
+    border: 2px solid grey;
+    background-color: gainsboro;
+}
+
+.approve-deny-button>a:hover{
+    color:darkred;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.subheaderapproved{
+    color:green;
+    font-weight: bold;
+}
+.subheaderdenied{
+    color:indianred;
+    font-weight: bold;
+}
+
+/*Style for logistics approval*/
+.table{
+    margin: 5px;
+}
+.thstyle{
+    background-color: darkblue;
+    color: white;
+}
+tbody>tr>td>a{
+    font-weight: bolder;
+}    
